@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="application.Controller">
+ 
+    		<Button fx:id="browse" layoutX="288.0" layoutY="60.0" mnemonicParsing="false"  prefHeight="80.0" prefWidth="100.0" text="Browse APK" />
+            <Button fx:id="decompile" layoutX="438.0" layoutY="60.0" mnemonicParsing="false"  prefHeight="80.0" prefWidth="100.0" text="Decompile" />
+            <Button fx:id="recompile" layoutX="588.0" layoutY="60.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="100.0" text="Recompile" />
+            <Button fx:id="sign" layoutX="738.0" layoutY="60.0" mnemonicParsing="false"  prefHeight="80.0" prefWidth="100.0" text="Sign" />
+    
+</VBox>
